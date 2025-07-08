@@ -42,8 +42,8 @@ class AndroidApplicationFirebaseConventionPlugin : Plugin<Project> {
                     for Kawakarpo.
                     That's why the duplicate classes from below dependencies are excluded.
                     */
-//                    exclude(group = "com.google.protobuf", module = "protobuf-javalite")
-//                    exclude(group = "com.google.firebase", module = "protolite-well-known-types")
+                    exclude(group = "com.google.protobuf", module = "protobuf-javalite")
+                    exclude(group = "com.google.firebase", module = "protolite-well-known-types")
                 }
                 "implementation"(libs.findLibrary("firebase.crashlytics").get())
             }

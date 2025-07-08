@@ -58,7 +58,8 @@ android {
 
     packaging {
         resources {
-            excludes.add("/META-INF/{AL2.0,LGPL2.1}")
+            excludes.add("/META-INF/{AL2.0,LGPL2.1,}")
+
         }
     }
     testOptions {
@@ -76,13 +77,13 @@ dependencies {
 //    implementation(projects.feature.topic)
 //    implementation(projects.feature.search)
 //    implementation(projects.feature.settings)
-//
-//    implementation(projects.core.common)
-//    implementation(projects.core.ui)
-//    implementation(projects.core.designsystem)
-//    implementation(projects.core.data)
-//    implementation(projects.core.model)
-//    implementation(projects.core.analytics)
+
+    implementation(projects.core.common)
+    implementation(projects.core.ui)
+    implementation(projects.core.designsystem)
+    implementation(projects.core.data)
+    implementation(projects.core.model)
+    implementation(projects.core.analytics)
 //    implementation(projects.sync.work)
 
     implementation(libs.androidx.activity.compose)
@@ -106,13 +107,13 @@ dependencies {
 
     ksp(libs.hilt.compiler)
 
-//    debugImplementation(libs.androidx.compose.ui.testManifest)
+    debugImplementation(libs.androidx.compose.ui.testManifest)
 //    debugImplementation(projects.uiTestHiltManifest)
 
     kspTest(libs.hilt.compiler)
 
-//    testImplementation(projects.core.dataTest)
-//    testImplementation(projects.core.datastoreTesttoreTest)
+    testImplementation(projects.core.dataTest)
+    testImplementation(projects.core.datastoreTest)
     testImplementation(libs.hilt.android.testing)
 //    testImplementation(projects.sync.syncTest)
     testImplementation(libs.kotlin.test)
@@ -120,12 +121,12 @@ dependencies {
     testDemoImplementation(libs.androidx.navigation.testing)
     testDemoImplementation(libs.robolectric)
     testDemoImplementation(libs.roborazzi)
-//    testDemoImplementation(projects.core.screenshotTesting)
-//    testDemoImplementation(projects.core.testing)
+    testDemoImplementation(projects.core.screenshotTesting)
+    testDemoImplementation(projects.core.testing)
 
-//    androidTestImplementation(projects.core.testing)
-//    androidTestImplementation(projects.core.dataTest)
-//    androidTestImplementation(projects.core.datastoreTest)
+    androidTestImplementation(projects.core.testing)
+    androidTestImplementation(projects.core.dataTest)
+    androidTestImplementation(projects.core.datastoreTest)
     androidTestImplementation(libs.androidx.test.espresso.core)
     androidTestImplementation(libs.androidx.compose.ui.test)
     androidTestImplementation(libs.hilt.android.testing)

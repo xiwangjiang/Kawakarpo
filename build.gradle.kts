@@ -30,7 +30,7 @@ buildscript {
     }
     dependencies {
         classpath(libs.google.oss.licenses.plugin) {
-//            exclude(group = "com.google.protobuf")
+            exclude(group = "com.google.protobuf")
         }
     }
 
@@ -60,5 +60,6 @@ plugins {
     alias(libs.plugins.roborazzi) apply false
     alias(libs.plugins.secrets) apply false
     alias(libs.plugins.room) apply false
-    alias(libs.plugins.module.graph) apply true // Plugin applied to allow module graph generation
+    alias(libs.plugins.module.graph) apply true
+    alias(libs.plugins.kotlin.android) apply false // Plugin applied to allow module graph generation
 }
