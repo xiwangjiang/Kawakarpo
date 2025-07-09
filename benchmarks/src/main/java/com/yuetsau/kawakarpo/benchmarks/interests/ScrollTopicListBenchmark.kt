@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.yuetsua.kawakarpo.interests
+package com.yuetsau.kawakarpo.interests
 
 import androidx.benchmark.macro.CompilationMode
 import androidx.benchmark.macro.FrameTimingMetric
@@ -22,8 +22,8 @@ import androidx.benchmark.macro.StartupMode
 import androidx.benchmark.macro.junit4.MacrobenchmarkRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.uiautomator.By
-import com.yuetsua.kawakarpo.PACKAGE_NAME
-import com.yuetsua.kawakarpo.startActivityAndAllowNotifications
+import com.yuetsau.kawakarpo.PACKAGE_NAME
+import com.yuetsau.kawakarpo.startActivityAndAllowNotifications
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith

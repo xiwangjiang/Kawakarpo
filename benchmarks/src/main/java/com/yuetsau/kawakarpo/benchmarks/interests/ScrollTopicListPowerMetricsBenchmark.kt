@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.yuetsua.kawakarpo.interests
+package com.yuetsau.kawakarpo.interests
 
 import android.os.Build.VERSION_CODES
 import androidx.annotation.RequiresApi
@@ -28,12 +28,12 @@ import androidx.benchmark.macro.StartupMode
 import androidx.benchmark.macro.junit4.MacrobenchmarkRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.uiautomator.By
-import com.yuetsua.kawakarpo.PACKAGE_NAME
-import com.yuetsua.kawakarpo.allowNotifications
-import com.yuetsua.kawakarpo.foryou.forYouScrollFeedDownUp
-import com.yuetsua.kawakarpo.foryou.forYouSelectTopics
-import com.yuetsua.kawakarpo.foryou.forYouWaitForContent
-import com.yuetsua.kawakarpo.foryou.setAppTheme
+import com.yuetsau.kawakarpo.PACKAGE_NAME
+import com.yuetsau.kawakarpo.allowNotifications
+import com.yuetsau.kawakarpo.foryou.forYouScrollFeedDownUp
+import com.yuetsau.kawakarpo.foryou.forYouSelectTopics
+import com.yuetsau.kawakarpo.foryou.forYouWaitForContent
+import com.yuetsau.kawakarpo.foryou.setAppTheme
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith

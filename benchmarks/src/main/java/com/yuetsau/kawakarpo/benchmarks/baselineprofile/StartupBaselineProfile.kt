@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.yuetsua.kawakarpo.baselineprofile
+package com.yuetsau.kawakarpo.baselineprofile
 
 import androidx.benchmark.macro.MacrobenchmarkScope
 import androidx.benchmark.macro.junit4.BaselineProfileRule
-import com.yuetsua.kawakarpo.PACKAGE_NAME
-import com.yuetsua.kawakarpo.startActivityAndAllowNotifications
+import com.yuetsau.kawakarpo.PACKAGE_NAME
+import com.yuetsau.kawakarpo.startActivityAndAllowNotifications
 import org.junit.Rule
 import org.junit.Test
 

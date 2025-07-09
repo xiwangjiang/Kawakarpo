@@ -85,3 +85,4 @@ check(JavaVersion.current().isCompatibleWith(JavaVersion.VERSION_17)) {
     """.trimIndent()
 }
 include(":benchmarks")
+include(":app-nia-catalog")

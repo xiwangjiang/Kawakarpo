@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.yuetsua.kawakarpo.startup
+package com.yuetsau.kawakarpo.startup
 
 import androidx.benchmark.macro.BaselineProfileMode.Disable
 import androidx.benchmark.macro.BaselineProfileMode.Require
@@ -22,11 +22,11 @@ import androidx.benchmark.macro.CompilationMode
 import androidx.benchmark.macro.StartupMode.COLD
 import androidx.benchmark.macro.junit4.MacrobenchmarkRule
 import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner
-import com.yuetsua.kawakarpo.BaselineProfileMetrics
-import com.yuetsua.kawakarpo.PACKAGE_NAME
-import com.yuetsua.kawakarpo.allowNotifications
-import com.yuetsua.kawakarpo.foryou.forYouWaitForContent
-import com.yuetsua.kawakarpo.startActivityAndAllowNotifications
+import com.yuetsau.kawakarpo.BaselineProfileMetrics
+import com.yuetsau.kawakarpo.PACKAGE_NAME
+import com.yuetsau.kawakarpo.allowNotifications
+import com.yuetsau.kawakarpo.foryou.forYouWaitForContent
+import com.yuetsau.kawakarpo.startActivityAndAllowNotifications
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith

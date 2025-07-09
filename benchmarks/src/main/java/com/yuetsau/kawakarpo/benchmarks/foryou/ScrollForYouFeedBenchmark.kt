@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.yuetsua.kawakarpo.foryou
+package com.yuetsau.kawakarpo.foryou
 
 import androidx.benchmark.macro.CompilationMode
 import androidx.benchmark.macro.FrameTimingMetric
 import androidx.benchmark.macro.StartupMode
 import androidx.benchmark.macro.junit4.MacrobenchmarkRule
 import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner
-import com.yuetsua.kawakarpo.PACKAGE_NAME
-import com.yuetsua.kawakarpo.startActivityAndAllowNotifications
+import com.yuetsau.kawakarpo.PACKAGE_NAME
+import com.yuetsau.kawakarpo.startActivityAndAllowNotifications
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.yuetsua.kawakarpo
+package com.yuetsau.kawakarpo
 
 import android.Manifest.permission
 import android.os.Build.VERSION.SDK_INT

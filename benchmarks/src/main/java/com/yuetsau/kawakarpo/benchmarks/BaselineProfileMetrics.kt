@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.yuetsua.kawakarpo
+package com.yuetsau.kawakarpo
 
 import androidx.benchmark.macro.ExperimentalMetricApi
 import androidx.benchmark.macro.StartupTimingMetric

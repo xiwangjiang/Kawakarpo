@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.yuetsua.kawakarpo.interests
+package com.yuetsau.kawakarpo.interests
 
 import androidx.benchmark.macro.MacrobenchmarkScope
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.Until
-import com.yuetsua.kawakarpo.flingElementDownUp
-import com.yuetsua.kawakarpo.waitForObjectOnTopAppBar
+import com.yuetsau.kawakarpo.flingElementDownUp
+import com.yuetsau.kawakarpo.waitForObjectOnTopAppBar
 
 fun MacrobenchmarkScope.goToInterestsScreen() {
     device.findObject(By.text("Interests")).click()

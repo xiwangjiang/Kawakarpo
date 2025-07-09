@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.yuetsua.kawakarpo
+package com.yuetsau.kawakarpo
 
 import androidx.test.uiautomator.BySelector
 import androidx.test.uiautomator.Direction
@@ -28,7 +28,7 @@ import java.io.ByteArrayOutputStream
  * Convenience parameter to use proper package name with regards to build type and build flavor.
  */
 val PACKAGE_NAME = buildString {
-    append("com.yuetsua.kawakarpo")
+    append("com.yuetsau.kawakarpo")
     append(BuildConfig.APP_FLAVOR_SUFFIX)
 }
 

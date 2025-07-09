@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.yuetsua.kawakarpo.foryou
+package com.yuetsau.kawakarpo.foryou
 
 import androidx.benchmark.macro.MacrobenchmarkScope
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.Until
 import androidx.test.uiautomator.untilHasChildren
-import com.yuetsua.kawakarpo.flingElementDownUp
-import com.yuetsua.kawakarpo.waitAndFindObject
-import com.yuetsua.kawakarpo.waitForObjectOnTopAppBar
+import com.yuetsau.kawakarpo.flingElementDownUp
+import com.yuetsau.kawakarpo.waitAndFindObject
+import com.yuetsau.kawakarpo.waitForObjectOnTopAppBar
 import org.junit.Assert.fail
 
 fun MacrobenchmarkScope.forYouWaitForContent() {

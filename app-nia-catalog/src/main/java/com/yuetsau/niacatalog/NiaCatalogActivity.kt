@@ -14,17 +14,20 @@
  * limitations under the License.
  */
 
-package com.yuetsau.kawakarpo.bookmarks
+package com.yuetsau.niacatalog
 
-import androidx.benchmark.macro.MacrobenchmarkScope
-import androidx.test.uiautomator.By
-import com.yuetsau.kawakarpo.waitForObjectOnTopAppBar
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.core.view.WindowCompat
+import com.yuetsau.niacatalog.ui.NiaCatalog
 
-fun MacrobenchmarkScope.goToBookmarksScreen() {
-    val savedSelector = By.text("Saved")
-    val savedButton = device.findObject(savedSelector)
-    savedButton.click()
-    device.waitForIdle()
-    // Wait until saved title are shown on screen
-    waitForObjectOnTopAppBar(savedSelector)
+class NiaCatalogActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        WindowCompat.setDecorFitsSystemWindows(window, false)
+
+        setContent { NiaCatalog() }
+    }
 }

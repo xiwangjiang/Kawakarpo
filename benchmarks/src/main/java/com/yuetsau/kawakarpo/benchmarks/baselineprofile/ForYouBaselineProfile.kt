@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.yuetsua.kawakarpo.baselineprofile
+package com.yuetsau.kawakarpo.baselineprofile
 
 import androidx.benchmark.macro.junit4.BaselineProfileRule
-import com.yuetsua.kawakarpo.PACKAGE_NAME
-import com.yuetsua.kawakarpo.foryou.forYouScrollFeedDownUp
-import com.yuetsua.kawakarpo.foryou.forYouSelectTopics
-import com.yuetsua.kawakarpo.foryou.forYouWaitForContent
-import com.yuetsua.kawakarpo.startActivityAndAllowNotifications
+import com.yuetsau.kawakarpo.PACKAGE_NAME
+import com.yuetsau.kawakarpo.foryou.forYouScrollFeedDownUp
+import com.yuetsau.kawakarpo.foryou.forYouSelectTopics
+import com.yuetsau.kawakarpo.foryou.forYouWaitForContent
+import com.yuetsau.kawakarpo.startActivityAndAllowNotifications
 import org.junit.Rule
 import org.junit.Test
 
