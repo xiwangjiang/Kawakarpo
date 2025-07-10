@@ -86,3 +86,4 @@ check(JavaVersion.current().isCompatibleWith(JavaVersion.VERSION_17)) {
 }
 include(":benchmarks")
 include(":app-nia-catalog")
+include(":sync:work")
