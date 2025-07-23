@@ -47,7 +47,9 @@
             <option value="$PROJECT_DIR$/core/ui" />
             <option value="$PROJECT_DIR$/lint" />
             <option value="$PROJECT_DIR$/sync" />
+            <option value="$PROJECT_DIR$/sync/sync-test" />
             <option value="$PROJECT_DIR$/sync/work" />
+            <option value="$PROJECT_DIR$/ui-test-hilt-manifest" />
           </set>
         </option>
       </GradleProjectSettings>

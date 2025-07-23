@@ -5,10 +5,10 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="myapplication">
+      <SelectionState runConfigName="app-nia-catalog">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="app-nia-catalog">
+      <SelectionState runConfigName="ui-test-hilt-manifest">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
