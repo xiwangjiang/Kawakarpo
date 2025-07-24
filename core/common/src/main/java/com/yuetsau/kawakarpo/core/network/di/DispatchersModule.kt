@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.yeutsau.kawakarpo.core.network.di
+package com.yuetsau.kawakarpo.core.network.di
 
 import com.yuetsau.kawakarpo.core.network.Dispatcher
 import com.yuetsau.kawakarpo.core.network.NiaDispatchers.Default

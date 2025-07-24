@@ -34,5 +34,4 @@ dependencies {
     implementation(libs.androidx.test.rules)
     implementation(libs.hilt.android.testing)
     implementation(libs.kotlinx.datetime)
-    implementation(libs.androidx.test.ext)
 }
