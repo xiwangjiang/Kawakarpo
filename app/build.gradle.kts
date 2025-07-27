@@ -76,12 +76,12 @@ android {
 }
 
 dependencies {
-//    implementation(projects.feature.interests)
-//    implementation(projects.feature.foryou)
-//    implementation(projects.feature.bookmarks)
-//    implementation(projects.feature.topic)
-//    implementation(projects.feature.search)
-//    implementation(projects.feature.settings)
+    implementation(projects.feature.interests)
+    implementation(projects.feature.foryou)
+    implementation(projects.feature.bookmarks)
+    implementation(projects.feature.topic)
+    implementation(projects.feature.search)
+    implementation(projects.feature.settings)
 
     implementation(projects.core.common)
     implementation(projects.core.ui)
@@ -89,7 +89,7 @@ dependencies {
     implementation(projects.core.data)
     implementation(projects.core.model)
     implementation(projects.core.analytics)
-//    implementation(projects.sync.work)
+    implementation(projects.sync.work)
 
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
@@ -113,14 +113,14 @@ dependencies {
     ksp(libs.hilt.compiler)
 
     debugImplementation(libs.androidx.compose.ui.testManifest)
-//    debugImplementation(projects.uiTestHiltManifest)
+    debugImplementation(projects.uiTestHiltManifest)
 
     kspTest(libs.hilt.compiler)
 
     testImplementation(projects.core.dataTest)
     testImplementation(projects.core.datastoreTest)
     testImplementation(libs.hilt.android.testing)
-//    testImplementation(projects.sync.syncTest)
+    testImplementation(projects.sync.syncTest)
     testImplementation(libs.kotlin.test)
 
     testDemoImplementation(libs.androidx.navigation.testing)
